@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,300&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+.container-carousal{
+    margin-top: 5%;
+}
+.bg-dark a{
+    
+    color: black;
+}
+.flexbox{
+    display: flexbox;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    float: center;
+    background-image: url(images/stars.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    
+}
+.rounded-image{
+    margin-top: 10%;
+    margin-left: 40%;
+}
+.img-fluid{
+    background-color: gray;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border:hidden;
+  
+}
+.flexbox-container{
+    align-content: center;
+}
+.view-details{
+    background: transparent;
+    border: 1px solid green;
+    color: rgb(27, 182, 27);
+    padding: 5px 5px;
+    animation: example;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.view-details:hover{
+    font-size: 20px;
+    color: black;
+}
+@keyframes example {
+    from{background: transparent; color:rgb(27, 182, 27) ;}
+    to{background-color: black; color: white;}
+    
+}
+.register h1,h3{
+    font-size: 70px;
+}
+.register{
+    animation: register;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: inherit;
+    font-weight: bold;
+   
+    
+
+
+}
+@keyframes register {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+    
+}
+.view-details-1{
+    background: transparent;
+    border: 1px solid green;
+    color: rgb(27, 182, 27);
+    padding: 5px 5px;
+    animation: example;
+    color: black;
+    font-weight: bolder;
+    width: 200px;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 7px;
+}
+.view-details-1:hover{
+    background-color: black;
+    font-weight: bold;
+    color: green;
+    
+}
+.container2{
+    background-color: rgba(236, 82, 82, 0.808);
+    border-radius: 10px;
+}
+.intro{
+    height: 270px;
+    width: 100%;
+    background-image: url(images/stars.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+
+.intro1,.intro2{
+    text-align: center;
+    text-shadow: 5px 5px 10px grey;
+    margin-top: 5%;
+    padding: 7px;
+    color: green;
+    font-size: 50px;
+    animation: intro1;
+    animation-duration: 3s;
+    animation-direction: inherit;
+    animation-iteration-count: 3;
+    height: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    text-shadow: 5px 5px 10px yellow;
+    filter: brightness(200%);
+}
+@keyframes intro1 {
+    0%{opacity: 0;
+    }
+    100%{opacity: 1;}
+    
+}
+@keyframes intro2 {
+    0%{left: 0px;}
+    50%{right: 0px; left:100%}
+    100%{left: 50%;right: 50%;}
+    
+}
+
+.footer{
+    left: 0;
+    right: 0;
+    height: 400px;
+    border: 2px solid red;
+    color: white;
+  
+    
+}
+.foter{
+    background-image: url(images/stars.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.footer-components{
+    font-family: 'Bitter', serif;
+    color: white;
+}
